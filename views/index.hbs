@@ -2,23 +2,22 @@
 
 <head>
     <title>Mr-Moody</title>
+    <style href="../public/stylesheets/style.css"></style>
 </head>
 
 <body>
-    
-    <h1>{{title}}</h1>
-    
-    <p>Welcome to {{title}}</p>
-    
+
+    <div>
+    <h1 id="heading">{{title}}</h1>
     <form action="/get-user" method="post" >
     
-        user name:<br>
-        <input type="text" name="username">
+        <br>
+        <input type="text" id="ben" name="username" placeholder="Username">
         <br><br>
-        <input type="submit" value="Submit">
+        <input type="submit" id = "ho" value="Submit">
     
     </form> 
-
+</div>
 </body>
 
 </html>

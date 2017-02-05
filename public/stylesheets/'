@@ -1,23 +1,14 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image:url("bg.jpg");
 }
 
 a {
   color: #00B7FF;
 }
 
-#my-div{
-margin:auto;
-vertical-align:middle;
-border:1px solid #000000;
-border-radius:10px;
-height:50%;
-width:50%;}
-
 #ben {
-  position:relative;
+  position:absolute;
   top:40%;
   left:35%;
   border: 2px solid #b23aee;
@@ -30,7 +21,7 @@ width:50%;}
 }
 
 #ho {
-  position:relative;
+  position:absolute;
   top:50%;
   left:35%;
   color:#ffffff;
@@ -50,10 +41,10 @@ width:50%;}
 }
 
 #heading {
-  position:relative;
-  top:23%;
+  position:absolute;
+  top:15%;
   left:40%;
-  font-size:38px;
+  font-size:35px;
   color: #551a8b;
 }
 
@@ -63,26 +54,4 @@ top:25%;
 left:20%;
 color:#7d26cd;
 font-size:25px;
-}
-
-#qwer {
-position  : absolute;
-top : 3%;
-left : 8%;
-color:#528bb8;
-font-size:25px;
-
-}
-#tyuio
-{
-position : absolute;
-top:9%;
-left : 8%;
-color:#000000;
-font-size: 20px;
-
-    
-
-
-
 }
